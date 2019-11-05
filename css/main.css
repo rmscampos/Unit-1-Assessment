@@ -1,0 +1,51 @@
+h1 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#add {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;    
+    text-align: center;
+    background-color: grey;
+    color: white;
+    border-radius: 10%;
+    height: 50px;
+    width: 50px;
+    margin: 30px 15px 0px auto;
+
+}
+
+#subtract {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;    
+    text-align: center;
+    background-color: grey;
+    color: white;
+    border-radius: 10%;
+    height: 50px;
+    width: 50px;
+    margin: 30px auto 0px 15px;
+}
+
+input {
+    text-align: center;
+    font-size: 30px;    
+    font-family: Arial, Helvetica, sans-serif;    
+    height: 50px;
+    width: 100px;
+    border-radius: 10%;
+    border-style: solid;
+    border-color: grey;
+    border-width: 3px;
+    margin: 30px 0px 0px 0px;
+}
