@@ -12,7 +12,7 @@ div {
     margin: auto;
 }
 
-#add {
+/* #add {
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;    
     text-align: center;
@@ -23,9 +23,12 @@ div {
     width: 50px;
     margin: 30px 15px 0px auto;
 
-}
+} */
 
-#subtract {
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;    
     text-align: center;
@@ -34,7 +37,7 @@ div {
     border-radius: 10%;
     height: 50px;
     width: 50px;
-    margin: 30px auto 0px 15px;
+    margin-top: 30px;
 }
 
 input {
@@ -47,5 +50,10 @@ input {
     border-style: solid;
     border-color: grey;
     border-width: 3px;
-    margin: 30px 0px 0px 0px;
+    margin: 30px 15px 0px 15px;
+}
+
+button:hover {
+    color: rgb(202, 185, 185);
+    background-color: white;
 }
